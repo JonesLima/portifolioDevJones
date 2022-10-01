@@ -1,0 +1,147 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DevJones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <!-- NAVBAR / navbar-custom = para acesar estilos do CSS / style="background-color: #FFFFFF;" -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top" >
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="imagens\logo\logo.png" width="108 " height="56"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="capa"></section>
+
+
+
+    <div class="box-fix">
+
+      <section class="sobre" id="sobre">
+        <div class="overlay">
+          <div class="container fix-zindex">
+            <div class="texto-sobre">
+              <div class="col-md-70 padding30">
+                <h2>Sobre</h2>
+                <p>Me chamo Jones tenho 25 anos, sou técnico de segurança do trabalho e sou apaixonado pela programação
+                  Hoje estudo ciência da computação e tenho grandes expectativas de desenvolver um software que envolva
+                a segurança do trabalho. Criando maneiras de facilitar o trabalho de meus colegas no ramo.</p>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </section>
+
+      <section class="habilidades" id="habilidades">
+        <div class="container">
+          <div class="texto-habilidade">
+            <div class="col-md-12 texto-hab">              
+              <h2>Habilidades</h2></div>
+
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" align="middle">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="aprendizado">
+                      <p>Em aprendizado</p>
+                    </div>                    
+                    <img src="imagens/carrosel/01.png" class="d-block w-1" alt="..." style="height: 300px; width: 300px;">
+                  </div>
+                  <div class="carousel-item">
+                   <div class="aprendizado">
+                    <p>Em aprendizado</p>
+                  </div>  
+                  <img src="imagens/carrosel/02.png" class="d-block w-10" alt="..." style="height: 300px; width: 300px;">
+                </div>
+                <div class="carousel-item">
+                 <div class="aprendizado">
+                  <p>Conhecimento em atitivades academicas</p>
+                </div>  
+                <img src="imagens/carrosel/03.png" class="d-block w-10" alt="..." style="height: 300px; width: 300px;">
+              </div>
+              <div class="carousel-item">
+               <div class="aprendizado">
+                <p>Conhecimento em atitivades academicas</p>
+              </div>  
+              <img src="imagens/carrosel/04.png" class="d-block w-10" alt="..." style="height: 300px; width: 300px;">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> <!-- Carousel-->       
+
+      </div> <!--Texto-Habilidade -->
+
+    </div> <!--Container-->
+
+  </section> <!-- fim-->
+
+  <section class="contato" id="contato">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="custom-title">
+            <div></div>
+            <h2>Contato</h2>
+          </div>
+          <form>
+           <div class="form-group">
+            <label>Nome:</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>E-mail:</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Sua mensagem:</label>
+            <textarea class="form-control"></textarea>
+          </div>
+          <button style="background:#3FA3C5;color: white;" type="submit" class="btn btn-default">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <div class="container">    
+    <h3>Jones Lima - 2022 -Todos os direitos reservados</h3>
+  </div> 
+</div>
+</footer>
+
+</div> <!--box-fix-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

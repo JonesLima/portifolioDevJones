@@ -1,0 +1,139 @@
+.navbar-custom{
+	background-color: #FFFFFF ;
+}
+
+.nav-link{
+	margin: 0 15px;
+}
+
+body {
+	font-family: roboto;
+}
+
+
+/*Estilos*/
+
+.custom-title{position: relative;}
+
+.custom-title h2{
+  color: #888;
+  font-size: 25px;
+}
+
+section.capa{
+
+	width: 100%;
+	height: 100vh;		
+	background-image: url('css/imagens/j.png');
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #171810;
+
+}
+
+section.sobre{
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	background-image: url('css/imagens/seg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+
+
+.fix-zindex{
+	position: relative;
+	z-index: 2;
+}
+
+.overlay{
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(100, 100, 100, 0.6);
+}
+
+.box-fix{
+	position: relative;	
+}
+
+.texto-sobre{
+color:  white;
+margin-top: 300px;
+}
+
+.texto-sobre h2{
+	font-size: 36px;
+}
+
+.texto-sobre p{
+	font-size: px;
+}
+
+.padding30{
+	padding-right: 90px;
+}
+
+section.habilidades{	
+	background-color: #52584D;
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+.texto-hab h2{
+	position: absolute;
+	margin-top: 100px;
+	font-size: 56px;	
+	color:  #FFFFFF;	
+		
+}
+
+section.habilidades .aprendizado p{
+	color:  #FFFFFF;
+	font-size: 36px;
+	margin-top: 300px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+	margin-top: 300px;
+}
+
+section.contato{
+	background-color: #ffffff;
+	position: absolute;
+	width: 100%;
+	height: 900px;
+	position: relative;
+}
+
+section.contato h2{
+	margin-top: 160px;
+}
+
+section.contato{
+  background: rgb(225,225,225);
+}
+
+.contato{
+
+}
+
+section.contato button{
+	width: 100px;
+	height: 40px;
+	margin-top: 10px;
+}
+
+
+@media screen and (max-width: 1024px){
+
+}
